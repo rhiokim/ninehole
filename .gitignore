@@ -39,3 +39,8 @@ publish
 # build script local files
 build/buildinfo.properties
 build/config/buildinfo.properties
+
+# intelliJ project files
+atlassian-ide-plugin.xml
+*.iml
+.idea
