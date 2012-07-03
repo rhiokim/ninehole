@@ -1,0 +1,3 @@
+[submodule "js/vendors/sprite3d"]
+	path = js/vendors/sprite3d
+	url = https://github.com/boblemarin/Sprite3D.js.git
