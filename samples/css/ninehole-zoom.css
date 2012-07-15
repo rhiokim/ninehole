@@ -1,16 +1,8 @@
 #ninehole {
     position: absolute;
-    top: 314px;
-    left: 344px;
-    /*width: 680px;*/
-    /*border: 1px solid #404040;*/
+    top: 312px;
+    left: 336px;
 }
-
-/*#ninehole  {*/
-    /*margin: 0 -20px -20px -20px;*/
-    /*display: inline-block;*/
-/*}*/
-
 
 #ninehole div img {
     width: 160px;
@@ -26,7 +18,6 @@
     /*height: 100px;*/
     /*margin-right: 22px;*/
     /*margin-bottom: 11px;*/
-    list-style: none;
 }
 
 #ninehole div.hole1 {

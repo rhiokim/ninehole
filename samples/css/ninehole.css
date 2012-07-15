@@ -1,14 +1,9 @@
 #ninehole {
     position: absolute;
-    top: 167px;
+    top: 140px;
     left: 258px;
     width: 680px;
     /*border: 1px solid #404040;*/
-}
-
-#ninehole  {
-    /*margin: 0 -20px -20px -20px;*/
-    /*display: inline-block;*/
 }
 
 #ninehole div {

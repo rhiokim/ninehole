@@ -7,29 +7,5 @@
 
 #angle {
     margin-left: -990px;
-    /*background-color: red;*/
     border: 1px solid #404040;
-    /*-webkit-transform: perspective( 1000px ) rotateY( -45deg );*/
-    /*-moz-transform: perspective( 1000px ) rotateY( 45deg );*/
-    /*-o-transform: perspective( 1000px ) rotateY( 45deg );*/
-    /*transform: perspective( 1000px ) rotateY( -45deg );*/
-}
-
-#angle ul {
-    margin: 0 -30px -20px -20px;
-    display: inline-block;
-}
-
-#angle li img {
-    /*border: 1px solid #fff;*/
-    border-radius: 4px;
-    -moz-box-shadow:    0px 0px 5px 2px #131313;
-    -webkit-box-shadow: 0px 0px 5px 2px #131313;
-    box-shadow:         0px 0px 5px 2px #131313;
-}
-
-#angle li img.over {
-    /*-moz-box-shadow:    0px 0px 5px 3px #ccff33;*/
-    /*-webkit-box-shadow: 0px 0px 4px 1px #ccff33;*/
-    /*box-shadow:         0px 0px 4px 1px #ccff33;*/
 }

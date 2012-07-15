@@ -8,7 +8,6 @@ html, body {
 }
 
 #container {
-    padding-top: 10px;
     min-height: 100%;
     min-width: 100%;
     width: 100%;
@@ -19,7 +18,7 @@ html, body {
 
 #angle {
     width: 9000px;
-    height: 640px;
+    height: 650px;
     margin-left: 0;
     border: 1px solid #404040;
 }
@@ -27,48 +26,40 @@ html, body {
 #angle.select {
     opacity: .5;
 }
+#angle li.select {
+    opacity: .2;
+}
+
+#angle li.over {
+    border: 1px solid #888;
+    -moz-box-shadow:    0px 0px 10px 2px #afafaf;
+    -webkit-box-shadow: 0px 0px 10px 2px #afafaf;
+    box-shadow:         0px 0px 10px 2px #afafaf;
+}
 
 #angle ul {
-    margin: 0 -30px -20px -20px;
+    margin: 0;
+    padding: 0;
     display: inline-block;
 }
 
 #angle li {
     display: block;
-    margin: 11px;
+    margin: 16px 0 0 16px;
     list-style: none;
-}
-
-#angle li img {
-    /*border: 1px solid #fff;*/
     border-radius: 4px;
     -moz-box-shadow:    0px 0px 5px 2px #131313;
     -webkit-box-shadow: 0px 0px 5px 2px #131313;
     box-shadow:         0px 0px 5px 2px #131313;
 }
 
-#angle li img.over {
-    border-radius: 4px;
-    /*-moz-box-shadow:    0px 0px 5px 2px #131313;*/
-    /*-webkit-box-shadow: 0px 0px 5px 2px #131313;*/
-    /*box-shadow:         0px 0px 5px 2px #f3f3f3;*/
-}
-
-#angle li img.select {
-    opacity: .1;
-    /*border-radius: 4px;*/
-    /*-moz-box-shadow:    0px 0px 5px 2px #131313;*/
-    /*-webkit-box-shadow: 0px 0px 5px 2px #131313;*/
-    /*box-shadow:         0px 0px 5px 2px #f3f3f3;*/
-}
-
-#angle li img {
+#angle li, #angle li img {
     width: 160px;
     height: 90px;
 }
 
 /* element caption */
-div.caption {
+#angle li div.caption {
     position: absolute;
     color: white;
     width: 154px;
@@ -76,7 +67,5 @@ div.caption {
     margin-top: -23px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2px;
-    /*min-width: 100%;*/
-    /*min-height: 20px;*/
     padding: 3px;
 }
