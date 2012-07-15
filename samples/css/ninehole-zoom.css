@@ -1,21 +1,28 @@
 #ninehole {
     position: absolute;
-    top: 167px;
-    left: 258px;
-    width: 680px;
+    top: 314px;
+    left: 344px;
+    /*width: 680px;*/
     /*border: 1px solid #404040;*/
 }
 
-#ninehole  {
+/*#ninehole  {*/
     /*margin: 0 -20px -20px -20px;*/
     /*display: inline-block;*/
+/*}*/
+
+
+#ninehole div img {
+    width: 160px;
+    height: 90px;
 }
 
 #ninehole div {
     display: inline-block;
     position: absolute;
-    top: 115px;
-    left: 226px;
+    /*top: 115px;*/
+    /*left: 226px;*/
+    text-align: center;
     /*height: 100px;*/
     /*margin-right: 22px;*/
     /*margin-bottom: 11px;*/
@@ -23,35 +30,58 @@
 }
 
 #ninehole div.hole1 {
-    margin-top: -115px;
-    margin-left: -226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: -83px;
+    margin-left: -143px;
 }
 #ninehole div.hole2 {
-    margin-top: -115px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: -97px;
+    margin-left: 24px;
 }
 #ninehole div.hole3 {
-    margin-top: -115px;
-    margin-left: 226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: -83px;
+    margin-left: 192px;
 }
 #ninehole div.hole4 {
-    margin-top: 0;
-    margin-left: -226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: 15px;
+    margin-left: -166px;
 }
 #ninehole div.hole5 {
+    z-index: 99;
+    zoom: 1.5;
+    /*margin-top: -16px;*/
+    /*margin-left: -38px;*/
 }
 #ninehole div.hole6 {
-    margin-left: 226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: 15px;
+    margin-left: 215px;
 }
 #ninehole div.hole7 {
-    margin-top: 115px;
-    margin-left: -226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: 112px;
+    margin-left: -143px;
 }
 #ninehole div.hole8 {
-    margin-top: 115px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: 125px;
+    margin-left: 24px;
 }
 #ninehole div.hole9 {
-    margin-top: 115px;
-    margin-left: 226px;
+    z-index: 98;
+    zoom: 1.15;
+    margin-top: 112px;
+    margin-left: 192px;
 }
 
 #ninehole div img {
@@ -60,4 +90,12 @@
     -moz-box-shadow:    0px 0px 5px 2px #131313;
     -webkit-box-shadow: 0px 0px 5px 2px #131313;
     box-shadow:         0px 0px 5px 2px #131313;
+}
+
+#ninehole div.hole5 img {
+    /*border: 1px solid #fff;*/
+    border-radius: 4px;
+    -moz-box-shadow:    0px 0px 5px 2px #131313;
+    -webkit-box-shadow: 0px 0px 5px 2px #131313;
+    box-shadow:         0px 0px 10px 4px #222222;
 }
