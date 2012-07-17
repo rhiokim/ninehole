@@ -1,0 +1,11 @@
+#angle-wrapper {
+    -webkit-transform: perspective( 1000px ) rotateY( 40deg );
+    -moz-transform: perspective( 1000px ) rotateY( 40deg );
+    -o-transform: perspective( 1000px ) rotateY( 40deg );
+    transform: perspective( 1000px ) rotateY( 40deg );
+}
+
+#angle {
+    margin-left: 50px;
+    border: 1px solid #404040;
+}

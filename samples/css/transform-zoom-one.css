@@ -1,0 +1,43 @@
+#angle-wrapper {
+    zoom: 2;
+    -webkit-transform: perspective( 1000px ) rotateY( 40deg );
+    -moz-transform: perspective( 1000px ) rotateY( 40deg );
+    -o-transform: perspective( 1000px ) rotateY( 40deg );
+    transform: perspective( 1000px ) rotateY( 40deg );
+}
+
+#angle {
+    margin-top: -100px;
+    margin-left: -130px;
+}
+
+/* 2x */
+#player {
+    display: inline-block;
+    position: absolute;
+    top: 182px;
+    left: 180px;
+}
+
+#player img{
+    border-radius: 5px;
+    border: 1px solid #888;
+    -moz-box-shadow:    0px 0px 10px 2px #afafaf;
+    -webkit-box-shadow: 0px 0px 10px 2px #afafaf;
+    box-shadow:         0px 0px 10px 2px #afafaf;
+}
+
+#player .caption {
+    zoom: .6;
+    position: absolute;
+    color: white;
+    width: 528px;
+    height: 40px;
+    font-size: .7em;
+    margin-top: -53px;
+    margin-left: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    border-top: 1px solid #404040;
+    padding: 3px;
+}

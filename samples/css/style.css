@@ -1,0 +1,71 @@
+header, footer {
+    display: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+#container {
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    background-color: #222;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#angle {
+    width: 9000px;
+    height: 650px;
+    margin-left: 0;
+    border: 1px solid #404040;
+}
+
+#angle.select {
+    opacity: .5;
+}
+#angle li.select {
+    opacity: .2;
+}
+
+#angle li.over {
+    border: 1px solid #888;
+    -moz-box-shadow:    0px 0px 10px 2px #afafaf;
+    -webkit-box-shadow: 0px 0px 10px 2px #afafaf;
+    box-shadow:         0px 0px 10px 2px #afafaf;
+}
+
+#angle ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#angle li {
+    display: block;
+    margin: 16px 0 0 16px;
+    list-style: none;
+    border-radius: 4px;
+    -moz-box-shadow:    0px 0px 5px 2px #131313;
+    -webkit-box-shadow: 0px 0px 5px 2px #131313;
+    box-shadow:         0px 0px 5px 2px #131313;
+}
+
+#angle li, #angle li img {
+    width: 160px;
+    height: 90px;
+}
+
+/* element caption */
+#angle li div.caption {
+    position: absolute;
+    color: white;
+    width: 154px;
+    font-size: .7em;
+    margin-top: -23px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    padding: 3px;
+}
