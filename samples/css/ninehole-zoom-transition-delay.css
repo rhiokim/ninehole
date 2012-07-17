@@ -1,0 +1,52 @@
+#ninehole:hover div.hole1{
+    -webkit-transition-delay: .275s;
+}
+#ninehole:hover div.hole2{
+    -webkit-transition-delay: .1s;
+}
+#ninehole:hover div.hole3{
+    -webkit-transition-delay: .125s;
+}
+#ninehole:hover div.hole4{
+    -webkit-transition-delay: .25s;
+}
+#ninehole:hover div.hole6{
+    -webkit-transition-delay: .15s;
+}
+#ninehole:hover div.hole7{
+    -webkit-transition-delay: .225s;
+}
+#ninehole:hover div.hole8{
+    -webkit-transition-delay: .2s;
+}
+#ninehole:hover div.hole9{
+    -webkit-transition-delay: .175s;
+}
+/*#ninehole:hover div.hole5 {*/
+    /*-webkit-transition-delay: 0s;*/
+/*}*/
+
+#ninehole:hover div.hole1 img {
+    -webkit-transition-delay: .275s;
+}
+#ninehole:hover div.hole2 img {
+    -webkit-transition-delay: .1s;
+}
+#ninehole:hover div.hole3 img {
+    -webkit-transition-delay: .125s;
+}
+#ninehole:hover div.hole4 img {
+    -webkit-transition-delay: .25s;
+}
+#ninehole:hover div.hole6 img {
+    -webkit-transition-delay: .15s;
+}
+#ninehole:hover div.hole7 img {
+    -webkit-transition-delay: .225s;
+}
+#ninehole:hover div.hole8 img {
+    -webkit-transition-delay: .2s;
+}
+#ninehole:hover div.hole9 img {
+    -webkit-transition-delay: .175s;
+}
