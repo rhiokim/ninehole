@@ -1,0 +1,245 @@
+#ninehole {
+    position: absolute;
+    top: 229px;
+    left: 198px;
+}
+
+#ninehole div img {
+    width: 160px;
+    height: 90px;
+}
+
+#ninehole div {
+    display: inline-block;
+    position: absolute;
+    /*top: 115px;*/
+    /*left: 226px;*/
+    text-align: center;
+    /*height: 100px;*/
+    /*margin-right: 22px;*/
+    /*margin-bottom: 11px;*/
+}
+
+#ninehole div.hole1 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 0;
+    margin-left: 0;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole2 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 0;
+    margin-left: 180px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole3 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 0;
+    margin-left: 360px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole4 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 106px;
+    margin-left: 0;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole5 {
+    z-index: 99;
+    zoom: 1;
+    margin-top: 106px;
+    margin-left: 180px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole6 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 106px;
+    margin-left: 360px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole7 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 212px;
+    margin-left: 0;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole8 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 212px;
+    margin-left: 180px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+#ninehole div.hole9 {
+    z-index: 98;
+    zoom: 1;
+    margin-top: 212px;
+    margin-left: 360px;
+
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+#ninehole div img {
+    /*border: 1px solid #fff;*/
+    border-radius: 4px;
+    -moz-box-shadow:    0px 0px 5px 2px #131313;
+    -webkit-box-shadow: 0px 0px 5px 2px #131313;
+    box-shadow:         0px 0px 5px 2px #131313;
+}
+
+#ninehole div.hole5 img {
+    /*border: 1px solid #fff;*/
+    border-radius: 4px;
+    -moz-box-shadow:    0px 0px 5px 2px #131313;
+    -webkit-box-shadow: 0px 0px 5px 2px #131313;
+    box-shadow:         0px 0px 10px 4px #222222;
+}
+
+/* transition & transform */
+#ninehole:hover {}
+
+#ninehole img{
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#ninehole:hover img,
+#ninehole:hover div{
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#ninehole:hover div.hole5 {
+    -moz-transform: scale(1.75);
+    -webkit-transform: scale(1.75);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+    M11=1.5, M12=-0, M21=0, M22=1.5);
+}
+
+#ninehole:hover div.hole1,
+#ninehole:hover div.hole2,
+#ninehole:hover div.hole3,
+#ninehole:hover div.hole4,
+#ninehole:hover div.hole6,
+#ninehole:hover div.hole7,
+#ninehole:hover div.hole8,
+#ninehole:hover div.hole9{
+    -moz-transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    -o-transform: scale(1.25);
+    transform: scale(1.25);
+    -ms-transform: scale(1.25);
+    filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand',
+    M11=1.25, M12=-0, M21=0, M22=1.25);
+}
+
+#ninehole:hover div.hole1 img {
+    -moz-transform: translate(-20px, -10px);
+    -webkit-transform: translate(-20px, -10px);
+    -o-transform: translate(-20px, -10px);
+    transform: translate(-20px, -10px);
+    -ms-transform: translate(-20px, -10px);
+}
+
+#ninehole:hover div.hole2 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(0, -25px);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole3 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(20px, -10px);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole4 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(-36px, 0);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole6 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(36px, 0);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole7 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(-20px, 10px);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole8 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(0, 25px);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
+#ninehole:hover div.hole9 img {
+    -moz-transform: translate(-6px, -10px);
+    -webkit-transform: translate(20px, 9px);
+    -o-transform: translate(-6px, -10px);
+    transform: translate(-6px, -10px);
+    -ms-transform: translate(-6px, -10px);
+}
+
